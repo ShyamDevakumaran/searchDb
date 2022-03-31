@@ -1,0 +1,39 @@
+body{
+    background:  #383737;
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+    width:10px;
+    height: 450px;
+    margin: 60px auto;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)) ;
+    position: relative;
+}
+.container h1{
+    margin: 0%;
+    padding: 0px 0px;
+    font-family: arial;
+    font-size: 30px;
+    color:#333;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    transform: translateY(-50%);
+}
+        
+.container h2{
+    margin: 10%;
+    padding: 0px 0px;
+    font-family: arial;
+    font-size:20px;
+    color:#0be49b8e;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: -5%;
+    transform: translateY(-50%);
+}
+    

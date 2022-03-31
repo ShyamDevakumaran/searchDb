@@ -1,0 +1,106 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: century gothic;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../);
+    position: relative;
+	height: 635px;
+	background-size:cover;
+	background-position:center;
+}
+    /*LOGIN BOX STARTS */ 
+
+    .container{
+       
+        background: #383737 ;
+        color:#383737;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        box-sizing: border-box;
+        padding: 0px 0px;
+    }
+    
+    .user{
+        width: 0px;
+        height:0px;
+        position: absolute;
+        top: 50px;
+        left: calc(50% - 50px);
+    }
+    
+    h1{
+        margin: 0;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 22px;
+        color: #383737;
+    }
+    
+    p{
+        color:#383737;
+        margin: 5x;
+        padding: 10px 20px ;
+        font-weight: bold;
+    }
+    
+    input{
+        width: 10%;
+        margin-bottom: 10px;
+    }
+    
+     input[type="text"], input[type="password"] ,input[type="email"]
+    {
+        border: none;
+        border-bottom: 1px solid #383737;
+        background: transparent;
+        outline: none;
+        height: 35px;
+        color: #383737;
+        font-size: 16px;
+    }
+    
+    input[type="submit"]
+    {
+        border: 30px;
+        outline: 30px;
+        height: 50px;
+        background: #383737;
+        color: #fff;
+        font-size: 30px;
+        border-radius: 20px;
+        cursor: pointer;
+    
+    }
+    
+    
+    input[type="submit"]:hover
+    {
+        cursor: pointer;
+        background:#383737;
+    }
+    
+    a
+    {
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 20px;
+        color: #383737;
+    }
+    
+    
+    a:hover
+    {
+        color:#383737;
+    }
+    
+
+    /* //LOGIN BOX ENDS */
+   
+
+    
+
